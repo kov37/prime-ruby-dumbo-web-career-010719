@@ -5,3 +5,8 @@ def prime?(number)
   for i in 2..sqr do |divisor|
     if number % divisor == 0 
       prime = true 
+      break 
+    end
+  end
+  return prime 
+end
